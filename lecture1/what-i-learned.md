@@ -1,0 +1,24 @@
+- `cd -` returns to the previous directory.
+- Ctrl+l works the same as `clear`
+- On macOS, Cmd+Tab switches between applications, and Cmd+\` switches between windows of an application.
+- File permissions:
+    - See with `ls -l`
+    - Three groups of three bits: `rwx` (read, write, execute)
+    - First group: owner
+    - For directories: "read" means list contents, "write" means change contents, "execute" means `cd` into the directory
+        - You can't delete a file unless you have the `w` bit on the directory
+- Command-line arguments, `stdin`, and `stdout`
+    - `echo` sends its arguments to `stdout`
+    - `cat` sends `stdin` to `stdout`
+    - `tee` sends `stdin` to both a file and `stdout`
+    - `>` sends `stdout` to a file
+    - `<` sends a file to `stdin`
+    - `|` sends `stdout` to `stdin`
+- The `$` prompt means you are in a user shell. The `#` prompt means you are in a root shell.
+    - `root` is a special user that can do anything (passes any permissions check).
+    - You can use `sudo su` to get a root shell, though this is dangerous and not recommended.
+    - Note that commands like `sudo echo hello > /some/protected/file` won't work if you don't have write permission!
+        - You need to do `echo hello | sudo tee /some/protected/file` 
+- On Linux, the `sys` directory contains files for device drivers.
+    - You can manipulate some settings, such as screen brightness, by editing these files.
+    - Unix philosophy: "everything is a file." This is nice because you can work with these files using shell commands like anything else. 
