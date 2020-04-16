@@ -1,5 +1,6 @@
 cat
 cd
+chmod
 clear
 cp
 date
@@ -12,9 +13,12 @@ mv
 pwd
 rm
 rmdir
+sh
 su
 sudo
 tail
 tee
+touch
 which
+who
 whoami
