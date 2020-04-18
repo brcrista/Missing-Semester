@@ -25,3 +25,4 @@ more
 du
 unzip
 gunzip
+printf

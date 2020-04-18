@@ -1,4 +1,5 @@
 - `cd -` returns to the previous directory.
+- Ctrl+c while typing a command moves you to clear new prompt
 - Ctrl+l works the same as `clear`
 - On macOS, Cmd+Tab switches between applications, and Cmd+\` switches between windows of an application.
 - File permissions:
