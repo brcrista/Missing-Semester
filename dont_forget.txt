@@ -3,7 +3,6 @@ Add these to unix_shell_programs.txt if they don't get covered in the course.
 awk
 base64
 gzip
-head
 hexdump
 ln
 look
@@ -14,6 +13,7 @@ sort
 split
 stat
 tar
+time
 top
 tree
 uname
@@ -26,3 +26,6 @@ du
 unzip
 gunzip
 printf
+
+compress
+uncompress

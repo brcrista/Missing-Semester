@@ -11,6 +11,7 @@ env
 exit
 false
 find
+head
 history
 locate
 ls
@@ -33,3 +34,4 @@ true
 which
 who
 whoami
+xargs
