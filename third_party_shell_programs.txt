@@ -1,0 +1,8 @@
+curl
+git
+jq
+node
+npm
+python3
+tldr
+vim
