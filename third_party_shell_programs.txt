@@ -6,4 +6,3 @@ npm
 python3
 tldr
 tree
-vim
