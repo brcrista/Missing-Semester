@@ -1,0 +1,27 @@
+Add these to unix_shell_programs.txt if they don't get covered in the course.
+
+awk
+base64
+gzip
+head
+hexdump
+ln
+look
+popd
+pushd
+sed
+sort
+split
+stat
+tar
+top
+tree
+uname
+xattr
+zip
+
+less
+more
+du
+unzip
+gunzip
