@@ -9,6 +9,7 @@ cp
 date
 diff
 echo
+egrep
 env
 exit
 false
