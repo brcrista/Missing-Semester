@@ -2,6 +2,7 @@ Add these to unix_shell_programs.txt if they don't get covered in the course.
 
 base64
 hexdump
+join
 ln
 look
 popd
@@ -25,3 +26,4 @@ printf
 compress
 uncompress
 
+seq
