@@ -1,19 +1,40 @@
-Add these to unix_shell_programs.txt if they don't get covered in the course.
-
 base64
 hexdump
+od
+xxd
+
+basename
+dirname
+expand
+factor
+fold
+id
+install
 join
 ln
 look
+lsof
+mktmp
+netstat
+nice
+nl
 popd
 pushd
+realpath
 split
 stat
+sum
+tac
 tar
 time
+timeout
 top
 tree
+truncate
+unexpand
 uname
+uptime
+users
 xattr
 zip
 
@@ -26,4 +47,9 @@ printf
 compress
 uncompress
 
+pinky
 seq
+yes
+
+getopts
+shift
