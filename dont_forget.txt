@@ -13,7 +13,6 @@ install
 join
 ln
 look
-lsof
 mktmp
 netstat
 nice
@@ -24,11 +23,8 @@ realpath
 split
 stat
 sum
-tac
 tar
-time
 timeout
-top
 tree
 truncate
 unexpand
@@ -39,7 +35,6 @@ xattr
 zip
 
 more
-du
 unzip
 gunzip
 printf

@@ -11,6 +11,7 @@ convert
 cp
 date
 diff
+du
 echo
 egrep
 env
@@ -25,7 +26,9 @@ jobs
 kill
 less
 locate
+logger
 ls
+lsof
 man
 mkdir
 mv
@@ -46,10 +49,13 @@ source
 ssh
 su
 sudo
+tac
 tail
 tee
 test
+time
 tmux
+top
 touch
 true
 uniq
