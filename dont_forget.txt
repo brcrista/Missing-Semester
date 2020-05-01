@@ -4,6 +4,7 @@ od
 xxd
 
 basename
+dircolors
 dirname
 expand
 factor
