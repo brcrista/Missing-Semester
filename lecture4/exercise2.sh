@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 echo "Find the number of words in /usr/share/dict/words that contain at least three a's and don't have an 's ending."
 three_as=$(cat /usr/share/dict/words \

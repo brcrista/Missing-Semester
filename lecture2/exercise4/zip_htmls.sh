@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # Recursively finds all .html files under the current directory
 # and zips them into a file named `htmls.zip`

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 # Recursively find the most recently modified file under the current directory
 # for file in $(find . -type f); do
