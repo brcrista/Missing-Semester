@@ -1,0 +1,8 @@
+name: missing-semester
+channels:
+  - defaults
+dependencies:
+  - memory_profiler
+  - line_profiler
+  - pip:
+    - pycallgraph
