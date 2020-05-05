@@ -29,6 +29,7 @@ locate
 logger
 ls
 lsof
+make
 man
 mkdir
 mv
