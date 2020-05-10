@@ -12,4 +12,5 @@ jobs:
       with:
         version: '3.x'
     - run: pip3 install proselint
-    - run: proselint **/*.md
+    - run: mkdir -p ~/.config/proselint && cp lecture8/proselint-config.json ~/.config/proselint/config
+    - run: make proselint
