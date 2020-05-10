@@ -1,0 +1,5 @@
+- You would use a **wildcard requirement** when the minimum requirement doesn't depend on one of the version numbers. For example, if you want to run a Python script that uses a 3.6 language feature, but you don't care about any bug fixes or security patches, you would specify `3.6.*`.
+- You would use a **tilde requirement** like a wildcard requirement, except you want to set a lower bound on the patch number. For example, if a critical bug for your script was fixed in Python version `3.6.3`, you would specify `~3.6.3`.
+- You would use a **caret requirement** for even greater flexibility: you will take any minor version updates in addition to patch version updates. For this Python example (and semantic versioning in general), this actually makes the most sense, since minor version updates are supposed to include no breaking changes. So, `^3.6.3` means "you need at least Python 3.6.3 to run this script, but you shouldn't use Python 4."
+
+You might use a wildcard or tilde requirement instead of a caret requirement if you think minor version updates are too risky and want to reduce the amount of change you're willing to tolerate.
