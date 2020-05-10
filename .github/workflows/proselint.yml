@@ -8,5 +8,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - run: pip install proselint
-    - run: proselint **/*.md
+    - uses: actions/setup-python@v2
+      with:
+        version: '3.x'
+    - run: pip3 install proselint
+    - run: mkdir -p ~/.config/proselint && cp lecture8/proselint-config.json ~/.config/proselint/config
+    - run: make proselint

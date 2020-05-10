@@ -1,5 +1,7 @@
 # `pdb` Tutorial
 
+**Note:** This tutorial was forked from https://github.com/spiside/pdb-tutorial.
+
 The purpose of this tutorial is to teach you the basics of `pdb`, the **P**ython **D**e**B**ugger for [Python2](https://docs.python.org/2/library/pdb.html)
 and [Python3](https://docs.python.org/3/library/pdb.html).
 It will also include some helpful tricks to make your debugging sessions a lot less stressful.
