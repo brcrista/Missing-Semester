@@ -2,7 +2,9 @@ name: missing-semester
 channels:
   - defaults
 dependencies:
+  - matplotlib
   - memory_profiler
+  - numpy
   - line_profiler
   - pip:
     - pycallgraph

@@ -6,6 +6,7 @@ xxd
 basename
 dircolors
 dirname
+dos2unix
 expand
 factor
 fold
