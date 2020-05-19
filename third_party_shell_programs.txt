@@ -3,6 +3,7 @@ git
 jq
 node
 npm
-python3
+openssl
+python
 tldr
 tree

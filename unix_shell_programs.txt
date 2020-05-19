@@ -7,6 +7,7 @@ cat
 cd
 chmod
 clear
+cmp
 convert
 cp
 date
@@ -43,6 +44,7 @@ scp
 screen
 sed
 sh
+sha1sum
 shellcheck
 sleep
 sort
