@@ -20,8 +20,10 @@ exit
 false
 fg
 find
+gpg
 gzip
 head
+hexdump
 history
 jobs
 kill
@@ -45,6 +47,7 @@ screen
 sed
 sh
 sha1sum
+sha256sum
 shellcheck
 sleep
 sort
