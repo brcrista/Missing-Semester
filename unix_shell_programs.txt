@@ -8,6 +8,7 @@ cd
 chmod
 clear
 cmp
+column
 convert
 cp
 date
