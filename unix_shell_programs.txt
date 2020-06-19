@@ -39,6 +39,9 @@ mkdir
 mv
 nohup
 paste
+pgrep
+pkill
+ps
 pwd
 rm
 rmdir
