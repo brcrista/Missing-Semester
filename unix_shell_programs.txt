@@ -68,6 +68,7 @@ tmux
 top
 touch
 true
+type
 uniq
 vim
 wc
