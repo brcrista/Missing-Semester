@@ -42,6 +42,7 @@ nohup
 paste
 pgrep
 pkill
+printenv
 ps
 pwd
 rev
